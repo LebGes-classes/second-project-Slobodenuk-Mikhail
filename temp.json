@@ -1,0 +1,80 @@
+{
+  "Product" : [ {
+    "ID" : "1",
+    "PlaceID" : "1",
+    "Place" : "w",
+    "Name" : "картошка",
+    "Price" : "20"
+  }, {
+    "ID" : "2",
+    "PlaceID" : "1",
+    "Place" : "s",
+    "Name" : "яблоки",
+    "Price" : "30"
+  }, {
+    "ID" : "3",
+    "PlaceID" : "2",
+    "Place" : "w",
+    "Name" : "огурец",
+    "Price" : "15"
+  }, {
+    "ID" : "4",
+    "PlaceID" : "2",
+    "Place" : "w",
+    "Name" : "сыр",
+    "Price" : "100"
+  }, {
+    "ID" : "5",
+    "PlaceID" : "2",
+    "Place" : "s",
+    "Name" : "лук",
+    "Price" : "25"
+  } ],
+  "Warehouse" : [ {
+    "ID" : "1",
+    "Address" : "Ленина"
+  }, {
+    "ID" : "2",
+    "Address" : "Сталина"
+  } ],
+  "Shop" : [ {
+    "ID" : "1",
+    "Address" : "Пушкина",
+    "BossID" : "5"
+  }, {
+    "ID" : "2",
+    "Address" : "Лермантова",
+    "BossID" : "4"
+  } ],
+  "Employee" : [ {
+    "ID" : "1",
+    "FIO" : "Bob",
+    "PlaceID" : "1",
+    "Place" : "s",
+    "Salary" : "1000"
+  }, {
+    "ID" : "2",
+    "FIO" : "John",
+    "PlaceID" : "1",
+    "Place" : "w",
+    "Salary" : "750"
+  }, {
+    "ID" : "3",
+    "FIO" : "Mike",
+    "PlaceID" : "2",
+    "Place" : "w",
+    "Salary" : "1000"
+  }, {
+    "ID" : "4",
+    "FIO" : "King",
+    "PlaceID" : "2",
+    "Place" : "s",
+    "Salary" : "1500"
+  }, {
+    "ID" : "5",
+    "FIO" : "Bill",
+    "PlaceID" : "1",
+    "Place" : "s",
+    "Salary" : "150"
+  } ]
+}
